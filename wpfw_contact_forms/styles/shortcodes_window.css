@@ -1,0 +1,26 @@
+.shortcode_window {
+	width: 400px;
+	height: 120px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	position: absolute;
+	display: none;
+	-moz-box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	font: 12px "Lucida Grande", Verdana, Arial;
+}
+
+.shortcode_window .title {
+	background-color: #222222;
+	color: #CFCFCF;
+	padding: 5px 5px 5px 10px;
+	font: 12px "Lucida Grande", Verdana, Arial;
+}
+
+.shortcode_window .title .close {
+	float: right;
+}
+
+.shortcode_window .shortcode_window_content {
+	padding: 20px 10px;
+}

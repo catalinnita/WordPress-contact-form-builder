@@ -1,0 +1,219 @@
+/* Form General */
+.Form {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	font: 14px Arial;
+}
+
+.Form form {
+	padding: 0px;
+	margin: 0px;
+}
+
+.Form ul {
+	margin: 0px;
+	list-style-type: none;
+}
+
+.Form ul li {
+	background: none;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+.Form .field {
+	padding: 5px 0px;
+	float: left;
+	text-align: left;
+	width: 100%;
+}
+
+.Form .field.clear {
+	clear: left;
+} 
+
+.Form label {
+	float: left;
+	width: 100px;
+	text-align: left;
+	padding-top: 20px;
+	color: #000;
+}
+
+.Form label.highlighted {
+	color: red;
+}
+
+.Form label .required {
+	padding: 7px 9px 9px 9px;
+	margin: 0px 0px 0px 5px;
+	background: url(../images/required.png) center center no-repeat;
+	*width: 10px;
+	*height: 10px;
+	*display: inline-block;
+}
+
+.Form input {
+	width: 90%;
+	padding: 5%;
+	
+	font-weight: normal;
+	color: #333;
+	
+	border: 1px solid #bdbcbd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+
+	background: -moz-linear-gradient(top,  #ffffff,  #efefef);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efefef));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef');		
+}
+
+.Form input.datepicker { width: 100px; }
+
+.Form textarea {
+	width: 90%;
+	color: #333;
+	font-weight: normal;
+	margin: 5px 0;	
+	padding: 5%;
+	border: 1px solid #bdbcbd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+	background: -moz-linear-gradient(top,  #ffffff,  #efefef);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efefef));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef');			
+	height: 82px;
+}
+
+.Form .SelectBoxHeader {
+	display: block;
+	padding: 5%;
+	border: 1px solid #bdbcbd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+	background: -moz-linear-gradient(top,  #ffffff,  #efefef);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efefef));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef');		
+	width: 90%;
+	text-align: left;
+	height: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.Form .SelectBoxHeader .arrow {
+	display: block;
+	float: right;
+	margin: -10px -10px 0px 0px;
+	background: -moz-linear-gradient(top,  #cd0b4a,  #ac083d);
+	background: -webkit-gradient(linear, left top, left bottom, from(#cd0b4a), to(#ac083d));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cd0b4a', endColorstr='#ac083d');	
+}
+
+.Form .SelectBoxHeader .arrow span {
+	background: url(../images/sb-arrow.png) center center no-repeat;
+	display: block;
+	width: 32px;
+	height: 36px;
+}
+
+.Form .SelectBoxOptions {
+	list-style-type: none;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: -15px 0px 0px 0px;
+	position: absolute;
+	display: none;
+	min-width: 200px;
+	background: white;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #bdbcbd;
+}
+
+.Form .SelectBoxOption {
+	text-align: left;
+	padding: 8px 10px;
+	display: block;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.Form .SelectBoxOption:hover {
+	background-color: #E0E0E0;
+}
+
+.Form .RadioButtonOption, .Form .CheckboxOption {
+	padding: 6px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	clear: left;
+	*padding: 0px 6px;
+	*height: 12px;
+	background-color: #eeeeee;
+	border: 1px solid #c6c6c6;
+}
+
+
+.Form .RadioButtonOption {
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	-webkit-border-radius: 13px;	
+}
+
+.Form .CheckboxOption {
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;		
+}
+
+.Form .RadioButtonOption.over, .Form .CheckboxOption.over {
+	padding: 6px;
+	*padding: 0px 5px;
+	*height: 10px;
+	border: 1px solid #aaaaaa;
+	background: #FFF;
+}
+
+.Form .RadioButtonOption.Selected {
+	border: 3px solid #aaaaaa;
+	background-color: #ab083d;
+	padding: 4px;
+}
+
+.Form .CheckboxOption.Selected {
+	background: url(../images/check.gif) center center no-repeat #666;
+}
+
+.Form ul li .boxvalue {
+	padding: 6px 15px 6px 10px;
+	margin: -1px 0px 0px 0px;
+	color: #a0a0a0;
+	float: left;
+}
+.Form ul li .boxvalue a {
+	color: #a0a0a0;
+}
+
+.ContactForm .message_box_error,
+.ContactForm .message_box_success {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.ContactForm .message_box_error {
+	background-color: #a22a16;
+	color: #FFF;
+}
+
+.ContactForm .message_box_success {
+	background-color: #16a0a2;
+	color: #FFF;
+}
